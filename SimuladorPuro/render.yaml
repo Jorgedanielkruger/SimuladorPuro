@@ -1,9 +1,5 @@
-services:
-  - type: web
-    name: packing-simulator
-    buildCommand: "npm install && npm run build"
-    startCommand: "npm start"
-    env: node
-    envVars: 
-      - key: NODE_ENV
-        value: production 
+static_sites:
+  - name: simulador-puro
+    repo: https://github.com/Jorgedanielkruger/SimuladorPuro
+    branch: main
+    output_path: /
