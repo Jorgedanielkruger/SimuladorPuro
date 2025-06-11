@@ -1,5 +1,0 @@
-static_sites:
-  - name: simulador-puro
-    repo: https://github.com/Jorgedanielkruger/SimuladorPuro
-    branch: main
-    output_path: /
